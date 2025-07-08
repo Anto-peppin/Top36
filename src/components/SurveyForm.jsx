@@ -7,13 +7,12 @@ function SurveyForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await fetch('http://localhost:5000/survey', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData)
-    });
-    setSubmitted(true);
-  };
+    await fetch('/.netlify/functions/survey', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify(formData),
+});
+  }
 
   return (
     <div style={{
