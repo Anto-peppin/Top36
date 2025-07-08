@@ -1,0 +1,11 @@
+:root {
+  --color-primary: #111D5E;
+  --color-accent: #FF7A00;
+  --color-bg: #F1F5FB;
+  --font-stack: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --radius: 8px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+}

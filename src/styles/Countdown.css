@@ -1,0 +1,30 @@
+.countdown-widget {
+  position: relative;
+  z-index: 1;
+}
+
+.countdown-widget svg {
+  margin-bottom: var(--spacing-8);
+  transform: rotate(-90deg); /* Make radial progress start from top */
+}
+
+.countdown-text {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--color-primary);
+  font-family: var(--font-stack);
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.top {
+  font-size: 1.7em;
+}

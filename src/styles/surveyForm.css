@@ -1,0 +1,20 @@
+.surveyInput {
+  display: block;
+  margin-bottom: 12px;
+  width: 100%;
+  margin: 5px 0 16px;
+  border-radius: var(--spacing-8);
+  border: 2px solid var(--color-primary);
+  border-color: var(--color-primary);
+  outline: none;
+  font-size: var(--spacing-16);
+  padding: var(  --spacing-4);
+}
+.surveyButton {
+  background-color: var(--color-accent);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
