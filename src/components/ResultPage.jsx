@@ -1,4 +1,4 @@
-import '../styles/ResultPage.css'
+import '../styles/resultPage.css'
 function ResultPage() {
   const won = true; // for now, hardcode status
 
